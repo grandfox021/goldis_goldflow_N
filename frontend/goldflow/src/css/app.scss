@@ -1,0 +1,53 @@
+// app global css in SCSS form
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'iranYekan', sans-serif;
+    
+}
+@font-face {
+    font-family: 'iranYekan';
+    font-weight: 300;             
+    font-style: normal;
+    src: url('/fonts/IRANYekanX family/IRANYekanX-Light.ttf');
+  }
+  
+  @font-face {
+    font-family: 'iranYekan';
+    font-weight: 400;             
+    font-style: normal;
+    src: url('/fonts/IRANYekanX family/IRANYekanX-Regular.ttf');
+  }
+  
+  @font-face {
+    font-family: 'iranYekan';
+    font-weight: 600;             
+    font-style: normal;
+    src: url('/fonts/IRANYekanX family/IRANYekanX-DemiBold.ttf');
+  }
+  
+  @font-face {
+    font-family: 'iranYekan';
+    font-weight: 700;             
+    font-style: normal;
+    src: url('/fonts/IRANYekanX family/IRANYekanX-Bold.ttf');
+  }
+
+  strong {
+    font-weight: 700;
+  }
+
+  h1 {
+    font-weight: 600;
+  }
+  .q-field--error .q-field__bottom {
+    color: var(--q-negative);
+    display: flex;
+    flex-direction: column;
+}
+
+.q-field__control {
+  color: var(--q-secondary);
+}
